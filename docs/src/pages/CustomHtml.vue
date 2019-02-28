@@ -2,7 +2,7 @@
   <div>
     <h1>Adding Custom HTML to the dropzone using slots</h1>
     <p v-html="marked(description)"></p>
-    <vue-dropzone ref="myVueDropzone" id="dropzone" class="dropzone" :useCustomSlot=true :options="dropzoneOptions">
+    <vue-dropzone ref="myVueDropzone" id="dropzone" class="dropzone" :use-custom-slot=true :options="dropzoneOptions">
       <div class="dropzone-custom-content">
         <h3 class="dropzone-custom-title">Drag and drop to upload content!</h3>
         <div class="subtitle">...or click to select a file from your computer</div>
